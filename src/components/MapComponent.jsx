@@ -27,8 +27,6 @@ const mapOptions = {
     { "elementType": "labels.icon", "stylers": [{ "visibility": "off" }] },
     { "elementType": "labels.text.fill", "stylers": [{ "color": "#757575" }] },
     { "elementType": "labels.text.stroke", "stylers": [{ "color": "#212121" }] },
-
-    // ** Show Buildings with Contrast **
     { "featureType": "landscape.man_made", "elementType": "geometry", "stylers": [{ "color": "#383838" }] },
     { "featureType": "landscape.man_made", "elementType": "labels.text.fill", "stylers": [{ "color": "#bdbdbd" }] },
 
@@ -36,18 +34,12 @@ const mapOptions = {
     { "featureType": "poi.business", "stylers": [{ "visibility": "on" }] }, 
     { "featureType": "poi.business", "elementType": "geometry", "stylers": [{ "color": "#404040" }] },
     { "featureType": "poi.business", "elementType": "labels.text.fill", "stylers": [{ "color": "#ffffff" }] },
-
-    // ** Keep Parks & Natural Features Dark **
     { "featureType": "poi.park", "elementType": "geometry", "stylers": [{ "color": "#181818" }] },
     { "featureType": "poi.park", "elementType": "labels.text.fill", "stylers": [{ "color": "#616161" }] },
-
-    // ** Roads Adjusted for Visibility **
     { "featureType": "road", "elementType": "geometry.fill", "stylers": [{ "color": "#2c2c2c" }] },
     { "featureType": "road", "elementType": "labels.text.fill", "stylers": [{ "color": "#8a8a8a" }] },
     { "featureType": "road.highway", "elementType": "geometry", "stylers": [{ "color": "#3c3c3c" }] },
     { "featureType": "road.highway", "elementType": "labels.text.fill", "stylers": [{ "color": "#bdbdbd" }] },
-
-    // ** Make Water Dark Gray Instead of Black for Contrast **
     { "featureType": "water", "elementType": "geometry", "stylers": [{ "color": "#121212" }] },
     { "featureType": "water", "elementType": "labels.text.fill", "stylers": [{ "color": "#3d3d3d" }] }
   ]
